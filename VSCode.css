@@ -1,0 +1,30 @@
+body {
+    -webkit-text-stroke-width: 0.24px;
+    text-shadow: 0 0 rgba(128,128,128,0.2);
+    /* text-rendering: geometricPrecision; */
+}
+
+body.vscode-body code {
+    font-family: "Source Code Pro", "회원고딕 HW", Consolas, monospace;
+}
+
+@font-face { font-family: "맑은 고딕"; src: local("회원고딕"); }
+@font-face { font-family: "맑은 고딕"; src: local("회원고딕 ExtraLight"); font-weight: 100; }
+@font-face { font-family: "맑은 고딕"; src: local("회원고딕 Light"); font-weight: 200; }
+@font-face { font-family: "맑은 고딕"; src: local("회원고딕 Normal"); font-weight: 300; }
+@font-face { font-family: "맑은 고딕"; src: local("회원고딕 Medium"); font-weight: 500; }
+@font-face { font-family: "맑은 고딕"; src: local("회원고딕 Bold"); font-weight: bold; }
+@font-face { font-family: "맑은 고딕"; src: local("회원고딕 Heavy"); font-weight: 900; }
+@font-face { font-family: "Malgun Gothic"; src: local("회원고딕"); }
+@font-face { font-family: "Malgun Gothic"; src: local("회원고딕 ExtraLight"); font-weight: 100; }
+@font-face { font-family: "Malgun Gothic"; src: local("회원고딕 Light"); font-weight: 200; }
+@font-face { font-family: "Malgun Gothic"; src: local("회원고딕 Normal"); font-weight: 300; }
+@font-face { font-family: "Malgun Gothic"; src: local("회원고딕 Medium"); font-weight: 500; }
+@font-face { font-family: "Malgun Gothic"; src: local("회원고딕 Bold"); font-weight: bold; }
+@font-face { font-family: "Malgun Gothic"; src: local("회원고딕 Heavy"); font-weight: 900; }
+@font-face { font-family: "Segoe UI"; src: local("회원고딕"); }
+@font-face { font-family: "Segoe UI"; src: local("회원고딕 Light"); font-weight: 200; }
+@font-face { font-family: "Segoe UI"; src: local("회원고딕 Normal"); font-weight: 300; }
+@font-face { font-family: "Segoe UI"; src: local("회원고딕 Medium"); font-weight: 500; }
+@font-face { font-family: "Segoe UI"; src: local("회원고딕 Bold"); font-weight: bold; }
+@font-face { font-family: "Segoe UI"; src: local("회원고딕 Heavy"); font-weight: 900; }

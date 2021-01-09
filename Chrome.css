@@ -1,0 +1,279 @@
+@font-face { font-family: "Arial"; src: local("Roboto"); }
+@font-face { font-family: "Arial"; src: local("Roboto Italic"); font-style: italic; }
+@font-face { font-family: "Arial"; src: local("Roboto Thin"); font-weight: 100; }
+@font-face { font-family: "Arial"; src: local("Roboto Thin Italic"); font-weight: 100; font-style: italic; }
+@font-face { font-family: "Arial"; src: local("Roboto Light"); font-weight: 300; }
+@font-face { font-family: "Arial"; src: local("Roboto Light Italic"); font-weight: 300; font-style: italic; }
+@font-face { font-family: "Arial"; src: local("Roboto Medium"); font-weight: 500; }
+@font-face { font-family: "Arial"; src: local("Roboto Medium Italic"); font-weight: 500; font-style: italic; }
+@font-face { font-family: "Arial"; src: local("Roboto Bold"); font-weight: bold; }
+@font-face { font-family: "Arial"; src: local("Roboto Bold Italic"); font-weight: bold; font-style: italic; }
+@font-face { font-family: "Arial"; src: local("Roboto Black"); font-weight: 900; }
+@font-face { font-family: "Arial"; src: local("Roboto Black Italic"); font-weight: 900; font-style: italic; }
+@font-face { font-family: "Consolas"; src: local("Source Code Pro"); }
+@font-face { font-family: "Consolas"; src: local("Source Code Pro Italic"); font-style: italic; }
+@font-face { font-family: "Consolas"; src: local("Source Code Pro Bold"); font-weight: bold; }
+@font-face { font-family: "Consolas"; src: local("Source Code Pro Bold Italic"); font-weight: bold; font-style: italic; }
+@font-face { font-family: "Courier New"; src: local("Source Code Pro"); }
+@font-face { font-family: "Courier New"; src: local("Source Code Pro Italic"); font-style: italic; }
+@font-face { font-family: "Courier New"; src: local("Source Code Pro Bold"); font-weight: bold; }
+@font-face { font-family: "Courier New"; src: local("Source Code Pro Bold Italic"); font-weight: bold; font-style: italic; }
+@font-face { font-family: "Helvetica"; src: local("Roboto"); }
+@font-face { font-family: "Helvetica"; src: local("Roboto Italic"); font-style: italic; }
+@font-face { font-family: "Helvetica"; src: local("Roboto Thin"); font-weight: 100; }
+@font-face { font-family: "Helvetica"; src: local("Roboto Thin Italic"); font-weight: 100; font-style: italic; }
+@font-face { font-family: "Helvetica"; src: local("Roboto Light"); font-weight: 300; }
+@font-face { font-family: "Helvetica"; src: local("Roboto Light Italic"); font-weight: 300; font-style: italic; }
+@font-face { font-family: "Helvetica"; src: local("Roboto Medium"); font-weight: 500; }
+@font-face { font-family: "Helvetica"; src: local("Roboto Medium Italic"); font-weight: 500; font-style: italic; }
+@font-face { font-family: "Helvetica"; src: local("Roboto Bold"); font-weight: bold; }
+@font-face { font-family: "Helvetica"; src: local("Roboto Bold Italic"); font-weight: bold; font-style: italic; }
+@font-face { font-family: "Helvetica"; src: local("Roboto Black"); font-weight: 900; }
+@font-face { font-family: "Helvetica"; src: local("Roboto Black Italic"); font-weight: 900; font-style: italic; }
+@font-face { font-family: "Helvetica Neue"; src: local("Roboto"); }
+@font-face { font-family: "Helvetica Neue"; src: local("Roboto Italic"); font-style: italic; }
+@font-face { font-family: "Helvetica Neue"; src: local("Roboto Thin"); font-weight: 100; }
+@font-face { font-family: "Helvetica Neue"; src: local("Roboto Thin Italic"); font-weight: 100; font-style: italic; }
+@font-face { font-family: "Helvetica Neue"; src: local("Roboto Light"); font-weight: 300; }
+@font-face { font-family: "Helvetica Neue"; src: local("Roboto Light Italic"); font-weight: 300; font-style: italic; }
+@font-face { font-family: "Helvetica Neue"; src: local("Roboto Medium"); font-weight: 500; }
+@font-face { font-family: "Helvetica Neue"; src: local("Roboto Medium Italic"); font-weight: 500; font-style: italic; }
+@font-face { font-family: "Helvetica Neue"; src: local("Roboto Bold"); font-weight: bold; }
+@font-face { font-family: "Helvetica Neue"; src: local("Roboto Bold Italic"); font-weight: bold; font-style: italic; }
+@font-face { font-family: "Helvetica Neue"; src: local("Roboto Black"); font-weight: 900; }
+@font-face { font-family: "Helvetica Neue"; src: local("Roboto Black Italic"); font-weight: 900; font-style: italic; }
+@font-face { font-family: "Lucida Console"; src: local("Source Code Pro"); }
+@font-face { font-family: "Lucida Console"; src: local("Source Code Pro Italic"); font-style: italic; }
+@font-face { font-family: "Lucida Console"; src: local("Source Code Pro Bold"); font-weight: bold; }
+@font-face { font-family: "Lucida Console"; src: local("Source Code Pro Bold Italic"); font-weight: bold; font-style: italic; }
+@font-face { font-family: "Noto Sans"; unicode-range: U+0000-052F; src: local("Noto Sans Regular"); }
+@font-face { font-family: "Noto Sans"; unicode-range: U+0000-052F; src: local("Noto Sans Thin"); font-weight: 100; }
+@font-face { font-family: "Noto Sans"; unicode-range: U+0000-052F; src: local("Noto Sans ExtraLight"); font-weight: 200; }
+@font-face { font-family: "Noto Sans"; unicode-range: U+0000-052F; src: local("Noto Sans Light"); font-weight: 300; }
+@font-face { font-family: "Noto Sans"; unicode-range: U+0000-052F; src: local("Noto Sans Medium"); font-weight: 500; }
+@font-face { font-family: "Noto Sans"; unicode-range: U+0000-052F; src: local("Noto Sans SemiBold"); font-weight: 600; }
+@font-face { font-family: "Noto Sans"; unicode-range: U+0000-052F; src: local("Noto Sans Bold"); font-weight: bold; }
+@font-face { font-family: "Noto Sans"; unicode-range: U+0000-052F; src: local("Noto Sans ExtraBold"); font-weight: 800; }
+@font-face { font-family: "Noto Sans"; unicode-range: U+0000-052F; src: local("Noto Sans Black"); font-weight: 900; }
+@font-face { font-family: "NotoSans"; unicode-range: U+0000-052F; src: local("Noto Sans Regular"); }
+@font-face { font-family: "NotoSans"; unicode-range: U+0000-052F; src: local("Noto Sans Thin"); font-weight: 100; }
+@font-face { font-family: "NotoSans"; unicode-range: U+0000-052F; src: local("Noto Sans ExtraLight"); font-weight: 200; }
+@font-face { font-family: "NotoSans"; unicode-range: U+0000-052F; src: local("Noto Sans Light"); font-weight: 300; }
+@font-face { font-family: "NotoSans"; unicode-range: U+0000-052F; src: local("Noto Sans Medium"); font-weight: 500; }
+@font-face { font-family: "NotoSans"; unicode-range: U+0000-052F; src: local("Noto Sans SemiBold"); font-weight: 600; }
+@font-face { font-family: "NotoSans"; unicode-range: U+0000-052F; src: local("Noto Sans Bold"); font-weight: bold; }
+@font-face { font-family: "NotoSans"; unicode-range: U+0000-052F; src: local("Noto Sans ExtraBold"); font-weight: 800; }
+@font-face { font-family: "NotoSans"; unicode-range: U+0000-052F; src: local("Noto Sans Black"); font-weight: 900; }
+@font-face { font-family: "Tahoma"; src: local("Noto Sans Regular"); }
+@font-face { font-family: "Tahoma"; src: local("Noto Sans Bold"); font-weight: bold; }
+@font-face { font-family: "Verdana"; src: local("Noto Sans"); }
+@font-face { font-family: "Verdana"; src: local("Noto Sans Italic"); font-style: italic; }
+@font-face { font-family: "Verdana"; src: local("Noto Sans Bold"); font-weight: bold; }
+@font-face { font-family: "Verdana"; src: local("Noto Sans Bold Italic"); font-weight: bold; font-style: italic; }
+
+@media screen {
+    body {
+        -webkit-text-stroke-width: 0.24px;
+        text-shadow: 0 0 rgba(128,128,128,0.2);
+        /* text-rendering: geometricPrecision; */
+    }
+
+    @font-face { font-family: "-apple-system"; src: local("회원고딕"); }
+    @font-face { font-family: "-apple-system"; src: local("회원고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "-apple-system"; src: local("회원고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "-apple-system"; src: local("회원고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "-apple-system"; src: local("회원고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "-apple-system"; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "-apple-system"; src: local("회원고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "굴림"; src: local("회원고딕"); }
+    @font-face { font-family: "굴림"; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "굴림체"; src: local("회원고딕 HW"); }
+    @font-face { font-family: "굴림체"; src: local("회원고딕 HW Bold"); font-weight: bold; }
+    @font-face { font-family: "궁서"; src: local("회원명조+"); }
+    @font-face { font-family: "궁서"; src: local("회원명조+ Bold"); font-weight: bold; }
+    @font-face { font-family: "돋움"; src: local("회원고딕"); }
+    @font-face { font-family: "돋움"; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "돋움체"; src: local("회원고딕 HW"); }
+    @font-face { font-family: "돋움체"; src: local("회원고딕 HW Bold"); font-weight: bold; }
+    @font-face { font-family: "맑은 고딕"; src: local("회원고딕"); }
+    @font-face { font-family: "맑은 고딕"; src: local("회원고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "맑은 고딕"; src: local("회원고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "맑은 고딕"; src: local("회원고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "맑은 고딕"; src: local("회원고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "맑은 고딕"; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "맑은 고딕"; src: local("회원고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "바탕"; src: local("회원명조+"); }
+    @font-face { font-family: "바탕"; src: local("회원명조+ Bold"); font-weight: bold; }
+    @font-face { font-family: "본고딕"; src: local("회원고딕"); }
+    @font-face { font-family: "본고딕"; src: local("회원고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "본고딕"; src: local("회원고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "본고딕"; src: local("회원고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "본고딕"; src: local("회원고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "본고딕"; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "본고딕"; src: local("회원고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "새굴림"; src: local("회원고딕"); }
+    @font-face { font-family: "새굴림"; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "Batang"; src: local("회원명조+"); }
+    @font-face { font-family: "Batang"; src: local("회원명조+ Bold"); font-weight: bold; }
+    @font-face { font-family: "BlinkMacSystemFont"; src: local("회원고딕"); }
+    @font-face { font-family: "BlinkMacSystemFont"; src: local("회원고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "BlinkMacSystemFont"; src: local("회원고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "BlinkMacSystemFont"; src: local("회원고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "BlinkMacSystemFont"; src: local("회원고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "BlinkMacSystemFont"; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "BlinkMacSystemFont"; src: local("회원고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "Dotum"; src: local("회원고딕"); }
+    @font-face { font-family: "Dotum"; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "DotumChe"; src: local("회원고딕 HW"); }
+    @font-face { font-family: "DotumChe"; src: local("회원고딕 HW Bold"); font-weight: bold; }
+    @font-face { font-family: "Gulim"; src: local("회원고딕"); }
+    @font-face { font-family: "Gulim"; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "GulimChe"; src: local("회원고딕 HW"); }
+    @font-face { font-family: "GulimChe"; src: local("회원고딕 HW Bold"); font-weight: bold; }
+    @font-face { font-family: "Gungsuh"; src: local("회원명조+"); }
+    @font-face { font-family: "Gungsuh"; src: local("회원명조+ Bold"); font-weight: bold; }
+    @font-face { font-family: "Malgun Gothic"; src: local("회원고딕"); }
+    @font-face { font-family: "Malgun Gothic"; src: local("회원고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "Malgun Gothic"; src: local("회원고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "Malgun Gothic"; src: local("회원고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "Malgun Gothic"; src: local("회원고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "Malgun Gothic"; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "Malgun Gothic"; src: local("회원고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "New Gulim"; src: local("회원고딕"); }
+    @font-face { font-family: "New Gulim"; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "Noto Sans"; unicode-range: U+0530-10FFFF; src: local("회원고딕"); }
+    @font-face { font-family: "Noto Sans"; unicode-range: U+0530-10FFFF; src: local("회원고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "Noto Sans"; unicode-range: U+0530-10FFFF; src: local("회원고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "Noto Sans"; unicode-range: U+0530-10FFFF; src: local("회원고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "Noto Sans"; unicode-range: U+0530-10FFFF; src: local("회원고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "Noto Sans"; unicode-range: U+0530-10FFFF; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "Noto Sans"; unicode-range: U+0530-10FFFF; src: local("회원고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "NotoSans"; unicode-range: U+0530-10FFFF; src: local("회원고딕"); }
+    @font-face { font-family: "NotoSans"; unicode-range: U+0530-10FFFF; src: local("회원고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "NotoSans"; unicode-range: U+0530-10FFFF; src: local("회원고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "NotoSans"; unicode-range: U+0530-10FFFF; src: local("회원고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "NotoSans"; unicode-range: U+0530-10FFFF; src: local("회원고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "NotoSans"; unicode-range: U+0530-10FFFF; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "NotoSans"; unicode-range: U+0530-10FFFF; src: local("회원고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "Noto Sans CJK KR"; src: local("회원고딕"); }
+    @font-face { font-family: "Noto Sans CJK KR"; src: local("회원고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "Noto Sans CJK KR"; src: local("회원고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "Noto Sans CJK KR"; src: local("회원고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "Noto Sans CJK KR"; src: local("회원고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "Noto Sans CJK KR"; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "Noto Sans CJK KR"; src: local("회원고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "Noto Sans KR"; src: local("회원고딕"); }
+    @font-face { font-family: "Noto Sans KR"; src: local("회원고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "Noto Sans KR"; src: local("회원고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "Noto Sans KR"; src: local("회원고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "Noto Sans KR"; src: local("회원고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "Noto Sans KR"; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "Noto Sans KR"; src: local("회원고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "Noto Sans Korean"; src: local("회원고딕"); }
+    @font-face { font-family: "Noto Sans Korean"; src: local("회원고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "Noto Sans Korean"; src: local("회원고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "Noto Sans Korean"; src: local("회원고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "Noto Sans Korean"; src: local("회원고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "Noto Sans Korean"; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "Noto Sans Korean"; src: local("회원고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "NotoSansKR"; src: local("회원고딕"); }
+    @font-face { font-family: "NotoSansKR"; src: local("회원고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "NotoSansKR"; src: local("회원고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "NotoSansKR"; src: local("회원고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "NotoSansKR"; src: local("회원고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "NotoSansKR"; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "NotoSansKR"; src: local("회원고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "Noto Sans Light"; src: local("회원고딕 Light"); }
+    @font-face { font-family: "Segoe UI"; src: local("회원고딕"); }
+    @font-face { font-family: "Segoe UI"; src: local("회원고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "Segoe UI"; src: local("회원고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "Segoe UI"; src: local("회원고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "Segoe UI"; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "Segoe UI"; src: local("회원고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "Source Han Sans K"; src: local("회원고딕"); }
+    @font-face { font-family: "Source Han Sans K"; src: local("회원고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "Source Han Sans K"; src: local("회원고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "Source Han Sans K"; src: local("회원고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "Source Han Sans K"; src: local("회원고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "Source Han Sans K"; src: local("회원고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "Source Han Sans K"; src: local("회원고딕 Heavy"); font-weight: 900; }
+}
+
+@media print {
+    @font-face { font-family: "-apple-system"; src: local("본고딕"); }
+    @font-face { font-family: "-apple-system"; src: local("본고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "-apple-system"; src: local("본고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "-apple-system"; src: local("본고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "-apple-system"; src: local("본고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "-apple-system"; src: local("본고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "-apple-system"; src: local("본고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "굴림"; src: local("본고딕"); }
+    @font-face { font-family: "굴림"; src: local("본고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "굴림체"; src: local("본고딕 HW"); }
+    @font-face { font-family: "굴림체"; src: local("본고딕 HW Bold"); font-weight: bold; }
+    @font-face { font-family: "궁서"; src: local("본명조"); }
+    @font-face { font-family: "궁서"; src: local("본명조 Bold"); font-weight: bold; }
+    @font-face { font-family: "돋움"; src: local("본고딕"); }
+    @font-face { font-family: "돋움"; src: local("본고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "돋움체"; src: local("본고딕 HW"); }
+    @font-face { font-family: "돋움체"; src: local("본고딕 HW Bold"); font-weight: bold; }
+    @font-face { font-family: "맑은 고딕"; src: local("본고딕"); }
+    @font-face { font-family: "맑은 고딕"; src: local("본고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "맑은 고딕"; src: local("본고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "맑은 고딕"; src: local("본고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "맑은 고딕"; src: local("본고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "맑은 고딕"; src: local("본고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "맑은 고딕"; src: local("본고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "바탕"; src: local("본명조"); }
+    @font-face { font-family: "바탕"; src: local("본명조 Bold"); font-weight: bold; }
+    @font-face { font-family: "새굴림"; src: local("본고딕"); }
+    @font-face { font-family: "새굴림"; src: local("본고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "Batang"; src: local("본명조"); }
+    @font-face { font-family: "Batang"; src: local("본명조 Bold"); font-weight: bold; }
+    @font-face { font-family: "BlinkMacSystemFont"; src: local("본고딕"); }
+    @font-face { font-family: "BlinkMacSystemFont"; src: local("본고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "BlinkMacSystemFont"; src: local("본고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "BlinkMacSystemFont"; src: local("본고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "BlinkMacSystemFont"; src: local("본고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "BlinkMacSystemFont"; src: local("본고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "BlinkMacSystemFont"; src: local("본고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "Dotum"; src: local("본고딕"); }
+    @font-face { font-family: "Dotum"; src: local("본고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "DotumChe"; src: local("본고딕 HW"); }
+    @font-face { font-family: "DotumChe"; src: local("본고딕 HW Bold"); font-weight: bold; }
+    @font-face { font-family: "Gulim"; src: local("본고딕"); }
+    @font-face { font-family: "Gulim"; src: local("본고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "GulimChe"; src: local("본고딕 HW"); }
+    @font-face { font-family: "GulimChe"; src: local("본고딕 HW Bold"); font-weight: bold; }
+    @font-face { font-family: "Gungsuh"; src: local("본명조"); }
+    @font-face { font-family: "Gungsuh"; src: local("본명조 Bold"); font-weight: bold; }
+    @font-face { font-family: "Malgun Gothic"; src: local("본고딕"); }
+    @font-face { font-family: "Malgun Gothic"; src: local("본고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "Malgun Gothic"; src: local("본고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "Malgun Gothic"; src: local("본고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "Malgun Gothic"; src: local("본고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "Malgun Gothic"; src: local("본고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "Malgun Gothic"; src: local("본고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "New Gulim"; src: local("본고딕"); }
+    @font-face { font-family: "New Gulim"; src: local("본고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "Noto Sans"; unicode-range: U+0530-10FFFF; src: local("본고딕"); }
+    @font-face { font-family: "Noto Sans"; unicode-range: U+0530-10FFFF; src: local("본고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "Noto Sans"; unicode-range: U+0530-10FFFF; src: local("본고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "Noto Sans"; unicode-range: U+0530-10FFFF; src: local("본고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "Noto Sans"; unicode-range: U+0530-10FFFF; src: local("본고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "Noto Sans"; unicode-range: U+0530-10FFFF; src: local("본고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "Noto Sans"; unicode-range: U+0530-10FFFF; src: local("본고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "NotoSans"; unicode-range: U+0530-10FFFF; src: local("본고딕"); }
+    @font-face { font-family: "NotoSans"; unicode-range: U+0530-10FFFF; src: local("본고딕 ExtraLight"); font-weight: 100; }
+    @font-face { font-family: "NotoSans"; unicode-range: U+0530-10FFFF; src: local("본고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "NotoSans"; unicode-range: U+0530-10FFFF; src: local("본고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "NotoSans"; unicode-range: U+0530-10FFFF; src: local("본고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "NotoSans"; unicode-range: U+0530-10FFFF; src: local("본고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "NotoSans"; unicode-range: U+0530-10FFFF; src: local("본고딕 Heavy"); font-weight: 900; }
+    @font-face { font-family: "Segoe UI"; src: local("본고딕"); }
+    @font-face { font-family: "Segoe UI"; src: local("본고딕 Light"); font-weight: 200; }
+    @font-face { font-family: "Segoe UI"; src: local("본고딕 Normal"); font-weight: 300; }
+    @font-face { font-family: "Segoe UI"; src: local("본고딕 Medium"); font-weight: 500; }
+    @font-face { font-family: "Segoe UI"; src: local("본고딕 Bold"); font-weight: bold; }
+    @font-face { font-family: "Segoe UI"; src: local("본고딕 Heavy"); font-weight: 900; }
+}
