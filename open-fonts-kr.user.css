@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name         open-fonts-kr
+@version      1.0.0
+@description  My own profile for MacType
+@namespace    https://github.com/extratype
+@author       extratype
+@homepageURL  https://github.com/extratype/mactype-profile
+@updateURL    https://raw.githubusercontent.com/extratype/mactype-profile/main/Chrome.css
+@preprocessor uso
+==/UserStyle== */
 @font-face { font-family: "Arial"; src: local("Roboto"); }
 @font-face { font-family: "Arial"; src: local("Roboto Italic"); font-style: italic; }
 @font-face { font-family: "Arial"; src: local("Roboto Thin"); font-weight: 100; }
