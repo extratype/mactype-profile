@@ -5,7 +5,9 @@ body {
 }
 
 body.vscode-body code {
-    font-family: "Source Code Pro", "회원고딕 HW", Consolas, monospace;
+    font-family: "Kaigen Mono K", "Source Code Pro", Consolas, monospace;
+    font-size: 13.33px;
+    line-height: 20px;
 }
 
 @font-face { font-family: "맑은 고딕"; src: local("회원고딕"); }
