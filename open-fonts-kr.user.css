@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name         open-fonts-kr
-@version      1.0.0
+@version      1.0.1
 @description  My own profile for MacType
 @namespace    https://github.com/extratype
 @author       extratype
 @homepageURL  https://github.com/extratype/mactype-profile
-@updateURL    https://raw.githubusercontent.com/extratype/mactype-profile/main/Chrome.css
+@updateURL    https://raw.githubusercontent.com/extratype/mactype-profile/main/open-fonts-kr.user.css
 @preprocessor uso
 ==/UserStyle== */
 @font-face { font-family: "Arial"; src: local("Roboto"); }
@@ -76,6 +76,10 @@
 @font-face { font-family: "NotoSans"; unicode-range: U+0000-052F; src: local("Noto Sans Black"); font-weight: 900; }
 @font-face { font-family: "Tahoma"; src: local("Noto Sans Regular"); }
 @font-face { font-family: "Tahoma"; src: local("Noto Sans Bold"); font-weight: bold; }
+@font-face { font-family: "ui-monospace"; src: local("Source Code Pro"); }
+@font-face { font-family: "ui-monospace"; src: local("Source Code Pro Italic"); font-style: italic; }
+@font-face { font-family: "ui-monospace"; src: local("Source Code Pro Bold"); font-weight: bold; }
+@font-face { font-family: "ui-monospace"; src: local("Source Code Pro Bold Italic"); font-weight: bold; font-style: italic; }
 @font-face { font-family: "Verdana"; src: local("Noto Sans"); }
 @font-face { font-family: "Verdana"; src: local("Noto Sans Italic"); font-style: italic; }
 @font-face { font-family: "Verdana"; src: local("Noto Sans Bold"); font-weight: bold; }
