@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         open-fonts-kr
-@version      1.0.1
+@version      1.0.2
 @description  My own profile for MacType
 @namespace    https://github.com/extratype
 @author       extratype
@@ -56,6 +56,10 @@
 @font-face { font-family: "Lucida Console"; src: local("Source Code Pro Italic"); font-style: italic; }
 @font-face { font-family: "Lucida Console"; src: local("Source Code Pro Bold"); font-weight: bold; }
 @font-face { font-family: "Lucida Console"; src: local("Source Code Pro Bold Italic"); font-weight: bold; font-style: italic; }
+@font-face { font-family: "monospace"; src: local("Source Code Pro"); }
+@font-face { font-family: "monospace"; src: local("Source Code Pro Italic"); font-style: italic; }
+@font-face { font-family: "monospace"; src: local("Source Code Pro Bold"); font-weight: bold; }
+@font-face { font-family: "monospace"; src: local("Source Code Pro Bold Italic"); font-weight: bold; font-style: italic; }
 @font-face { font-family: "Noto Sans"; unicode-range: U+0000-052F; src: local("Noto Sans Regular"); }
 @font-face { font-family: "Noto Sans"; unicode-range: U+0000-052F; src: local("Noto Sans Thin"); font-weight: 100; }
 @font-face { font-family: "Noto Sans"; unicode-range: U+0000-052F; src: local("Noto Sans ExtraLight"); font-weight: 200; }
