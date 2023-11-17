@@ -5,7 +5,7 @@
 @namespace    https://github.com/extratype
 @author       extratype
 @homepageURL  https://github.com/extratype/mactype-profile
-@updateURL    https://raw.githubusercontent.com/extratype/mactype-profile/main/open-fonts-kr.user.css
+@updateURL    https://raw.githubusercontent.com/extratype/mactype-profile/stroke/open-fonts-kr.user.css
 @preprocessor uso
 ==/UserStyle== */
 @font-face { font-family: "Arial"; src: local("Roboto"); }
@@ -91,7 +91,7 @@
 
 @media screen {
     body {
-        -webkit-text-stroke-width: 0.24px;
+        -webkit-text-stroke-width: 0.20px;
         text-shadow: 0 0 rgba(128,128,128,0.2);
         /* text-rendering: geometricPrecision; */
     }
